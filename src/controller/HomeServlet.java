@@ -11,6 +11,7 @@ import static util.Constants.*;
 /**
  * Deze controller is verantwoordelijk voor het doorsturen van de request naar
  * de HOME pagina. Dit is de startpagina van de website.
+ * @author Thomas Van Poucke
  */
 @WebServlet("/home")
 public class HomeServlet extends ExtendableServlet {

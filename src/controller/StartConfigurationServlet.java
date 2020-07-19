@@ -13,6 +13,7 @@ import static util.Constants.*;
  * Servlet die de start vormt van de analyzer. De gebruiker wordt doorgestuurd
  * naar een pagina waarop hij kan kiezen voor een nieuwe (lege) configuratie,
  * een voorbeeld configuratie, of om zelf een configuratie te uploaden.
+ * @author Thomas Van Poucke
  */
 @WebServlet("/start")
 public class StartConfigurationServlet extends ExtendableServlet {

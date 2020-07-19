@@ -2,7 +2,7 @@ package exception;
 
 /**
  * Protocol wordt niet ondersteund.
- * @author Thomas
+ * @author Thomas Van Poucke
  *
  */
 public class UnsupportedProtocolException extends Exception{

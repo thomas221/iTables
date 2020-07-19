@@ -13,6 +13,8 @@ import static util.Constants.*;
  * Deze controller is verantwoordelijk voor het doorsturen van de gebruiker naar
  * het contact gedeelte van de website. Daarin kan de gebruiker contact opnemen
  * met de eigenaar van de website. Bijvoorbeeld voor vragen of bij problemen.
+
+ * @author Thomas Van Poucke
  */
 @WebServlet("/contact")
 public class ContactServlet extends ExtendableServlet {

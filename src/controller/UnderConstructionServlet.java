@@ -13,6 +13,7 @@ import static util.Constants.*;
 /**
  * Deze controller zorgt er voor dat requests naar servlets of pagina's die nog onder constructie zijn goed afgehandeld worden.
  * De gebruiker wordt doorgestuurd naar een pagina met de mededeling dat het gevraagde nog onder constructie is.
+ * @author Thomas Van Poucke
  */
 @WebServlet("/under_construction")
 public class UnderConstructionServlet extends ExtendableServlet {

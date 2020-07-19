@@ -10,6 +10,9 @@ import javax.servlet.http.HttpServletResponse;
 
 import static util.Constants.*;
 
+/**
+* @author Thomas Van Poucke
+ */
 @WebServlet("/my_configuration/logfile")
 public class MyConfigurationLogFileServlet extends ExtendableServlet {
 

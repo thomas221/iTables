@@ -17,7 +17,7 @@ public class RedundancySolution {
 	 * Bevat de mogelijke statussen bij de analyse naar redundante firewall
 	 * regels.
 	 * 
-	 * @author Thomas
+	 * @author Thomas Van Poucke
 	 * 
 	 */
 	public enum Status {

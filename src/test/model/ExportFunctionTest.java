@@ -19,7 +19,7 @@ import exception.UnsupportedProtocolException;
 
 /**
  * Deze klasse test het exporteren van een configuratie naar iptables formaat.
- * @author Thomas
+ * @author Thomas Van Poucke
  *
  */
 public class ExportFunctionTest {

@@ -25,6 +25,7 @@ import static util.Constants.*;
  * voorbeeldconfiguraties kan kiezen. POST-requests worden afgehandeld zodat de
  * geselecteerde voorbeeld configuratie geladen wordt als configuratie om mee te
  * werken.
+ * @author Thomas Van Poucke
  */
 @WebServlet("/start/example")
 @MultipartConfig

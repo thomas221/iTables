@@ -15,7 +15,7 @@ import static util.Constants.*;
 /**
  * Deze klasse stelt een firewall configuratie voor.
  * 
- * @author Thomas
+ * @author Thomas Van Poucke
  */
 public class Configuration implements Serializable {
 	private static final long serialVersionUID = 1L;

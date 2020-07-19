@@ -8,7 +8,7 @@ import exception.CustomException;
 /**
  * Deze klasse stelt een chain voor van een iptables firewall configuratie.
  * 
- * @author Thomas
+ * @author Thomas Van Poucke
  */
 public class Chain implements Serializable {
 	private static final long serialVersionUID = 1L;
@@ -19,7 +19,7 @@ public class Chain implements Serializable {
 	 * Enumeratie klasse die de mogelijke standaard policy acties van een chain
 	 * definieert.
 	 * 
-	 * @author Thomas
+	 * @author Thomas Van Poucke
 	 * 
 	 */
 	public enum PolicyAction {

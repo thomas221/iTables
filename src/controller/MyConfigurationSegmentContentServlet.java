@@ -20,6 +20,7 @@ import static util.Constants.*;
  * Deze controller is verantwoordelijk voor het afhandelen van AJAX requests
  * voor het tonen van de inhoud van een segment. Daarop stuurt de controller een
  * response terug die een modal is met de informatie.
+ * @author Thomas Van Poucke
  */
 @WebServlet("/my_configuration/segment_content")
 public class MyConfigurationSegmentContentServlet extends ExtendableServlet {

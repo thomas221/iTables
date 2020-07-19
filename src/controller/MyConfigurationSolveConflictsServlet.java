@@ -30,6 +30,7 @@ import static util.Constants.*;
  * de meegegeven action constraints. De Space klasse wordt daarna opnieuw
  * gemaakt en de gebruiker krijgt de pagina configuration_rules opnieuw te zien
  * met de nieuwe configuratie.
+ * @author Thomas Van Poucke
  */
 @WebServlet("/my_configuration/solve_conflicts")
 public class MyConfigurationSolveConflictsServlet extends ExtendableServlet {

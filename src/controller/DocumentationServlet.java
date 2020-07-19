@@ -14,6 +14,7 @@ import static util.Constants.*;
  * Deze controller is verantwoordelijk voor het doorsturen van de gebruiker naar
  * het documentatie gedeelte van de website. Daarin krijgt de gebruiker meer
  * uitleg over hoe hij moet werken met de website.
+ * @author Thomas Van Poucke
  */
 @WebServlet("/documentation")
 public class DocumentationServlet extends ExtendableServlet {

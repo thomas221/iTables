@@ -33,6 +33,7 @@ import static util.Constants.*;
  * doorgestuurd naar een pagina waarop hij een configuratie bestand op zijn
  * eigen computer kan uploaden om er mee te werken. Bij een POST-request wordt
  * de met de request meegegeven configuratie bestand geupload naar de website.
+ * @author Thomas Van Poucke
  */
 @WebServlet("/start/upload")
 public class UploadConfigurationServlet extends ExtendableServlet {

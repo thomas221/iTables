@@ -35,7 +35,7 @@ import static util.Constants.*;
  * Daarnaast is er op deze pagina de mogelijkheid om de packetFirstMatch functionaliteit uit te testen. (op de pagina onder de naam 'bepaal matchende regel').
  * Deze controller handelt alle requests af van alles dat net opgenoemd is.
  * 
- * 
+* @author Thomas Van Poucke
  */
 @WebServlet("/my_configuration/rules")
 public class MyConfigurationRulesServlet extends ExtendableServlet {

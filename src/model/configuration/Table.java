@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Stelt een tabel van iptables voor.
  * 
- * @author Thomas
+ * @author Thomas Van Poucke
  * 
  */
 public class Table implements Serializable {
@@ -17,7 +17,7 @@ public class Table implements Serializable {
 	 * Geeft aan om welke tabel het gaat. iTables ondersteund enkel de 4
 	 * standaard aanwezige tabellen.
 	 * 
-	 * @author Thomas
+	 * @author Thomas Van Poucke
 	 * 
 	 */
 	public enum TableName {

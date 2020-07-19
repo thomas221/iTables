@@ -20,6 +20,9 @@ import util.AlertMessageType;
 import exception.CustomException;
 import static util.Constants.*;
 
+/**
+* @author Thomas Van Poucke
+ */
 @WebServlet("/my_configuration/anomalies")
 public class MyConfigurationAnomaliesServlet extends ExtendableServlet {
 

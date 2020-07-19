@@ -12,6 +12,7 @@ import static util.Constants.*;
 
 /**
  * Servlet implementation class MyConfigurationServlet
+ * @author Thomas Van Poucke
  */
 @WebServlet("/my_configuration")
 public class MyConfigurationServlet extends ExtendableServlet {

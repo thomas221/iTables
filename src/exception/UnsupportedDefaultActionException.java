@@ -2,7 +2,7 @@ package exception;
 
 /**
  * Chain heeft default action die niet ondersteund wordt. Enkel ACCEPT en DROP zijn toegelaten.
- * @author Thomas
+ * @author Thomas Van Poucke
  *
  */
 public class UnsupportedDefaultActionException extends Exception{		

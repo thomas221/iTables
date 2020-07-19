@@ -12,7 +12,7 @@ import static util.Constants.*;
  * bronpoort of doelpoort matcht aan een regel, dan wordt de bronpoort en
  * doelpoort vergeleken met dit patroon.
  * 
- * @author Thomas
+ * @author Thomas Van Poucke
  * 
  */
 public class PortPattern {

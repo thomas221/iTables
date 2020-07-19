@@ -28,6 +28,7 @@ import static util.Constants.*;
  * Servlet verantwoordelijk voor het geven van de redundante regels. De servlet
  * handelt AJAX requests af. De servlet geeft alle regelnummers terug van de
  * regels uit de huidige configuratie die redundant zijn.
+ * @author Thomas Van Poucke
  */
 @WebServlet("/my_configuration/show_redundancy")
 public class MyConfigurationShowRedundancyServlet extends ExtendableServlet {

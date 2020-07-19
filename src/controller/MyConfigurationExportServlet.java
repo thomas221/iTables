@@ -40,6 +40,7 @@ import static util.Constants.*;
  * huidige sessie te exporteren. Met exporteren wordt bedoeld dat de gebruiker
  * de (eventueel gewijzigde) IPTABLES configuratie kan downloaden naar zijn
  * computer.
+ * @author Thomas Van Poucke
  */
 @WebServlet("/my_configuration/export")
 public class MyConfigurationExportServlet extends ExtendableServlet {

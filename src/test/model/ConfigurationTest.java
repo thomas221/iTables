@@ -21,7 +21,7 @@ import static org.junit.Assert.*;
 /**
  * Deze klasse test het parsen van een iptables configuratie bestand.
  * 
- * @author Thomas
+ * @author Thomas Van Poucke
  */
 public class ConfigurationTest {
 	private static final String PATH_SEPARATOR = File.separator;

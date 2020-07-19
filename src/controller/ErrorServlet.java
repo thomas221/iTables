@@ -13,6 +13,7 @@ import static util.Constants.*;
 /**
  * Deze controller zorgt er voor dat fouten goed afgehandeld worden. De
  * gebruiker wordt doorgestuurd naar een pagina met een foutmelding.
+ * @author Thomas Van Poucke
  */
 @WebServlet("/error")
 public class ErrorServlet extends ExtendableServlet {

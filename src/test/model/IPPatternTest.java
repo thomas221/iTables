@@ -11,7 +11,7 @@ import org.junit.Test;
 import exception.CustomException;
 
 /**
- * @author Thomas
+ * @author Thomas Van Poucke
  *
  */
 public class IPPatternTest {

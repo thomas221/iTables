@@ -31,7 +31,7 @@ import static util.Constants.*;
  * Deze klasse breidt HttpServlet klassen uit door extra hulpmethoden aan te
  * bieden. Deze hulpmethoden vereenvoudigen terugkomende taken, zoals het
  * doorsturen van de request naar een bepaalde pagina.
- * 
+ * @author Thomas Van Poucke
  */
 public abstract class ExtendableServlet extends HttpServlet {
 

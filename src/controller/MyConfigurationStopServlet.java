@@ -12,6 +12,7 @@ import static util.Constants.*;
  * Deze controller is verantwoordelijk voor het afbreken van de sessie van de
  * gebruiker. De gebruiker wordt daarna doorgestuurd naar de start-pagina van de
  * website.
+ * @author Thomas Van Poucke
  */
 @WebServlet("/my_configuration/stop")
 public class MyConfigurationStopServlet extends ExtendableServlet {

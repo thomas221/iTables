@@ -19,6 +19,7 @@ import static util.Constants.*;
 /**
  * Deze controller is verantwoordelijk voor het doorsturen van de request naar
  * de pagina voor het starten met een nieuwe (lege) configuratie.
+ * @author Thomas Van Poucke
  */
 @WebServlet("/start/new")
 @MultipartConfig

@@ -11,7 +11,7 @@ import static util.Constants.*;
  * 
  * Deze klasse stelt een IP patroon voor.
  * 
- * @author Thomas
+ * @author Thomas Van Poucke
  * 
  */
 public class IPPattern {

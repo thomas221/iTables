@@ -10,7 +10,7 @@ import exception.CustomException;
  * 'matchen' aan die regel (indien het niet met een eerdere regel heeft
  * gematcht).
  * 
- * @author Thomas
+ * @author Thomas Van Poucke
  * 
  */
 public class Rule implements Comparable<Rule> {
