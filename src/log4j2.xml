@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+	<appenders>
+		<Console name="MyConsole" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss} %level (%F:%L) %msg%n" />
+		</Console>
+		<File name="MyFile" fileName="logs/itables.log">
+			<PatternLayout pattern="%d{HH:mm:ss} %level (%F:%L) %msg%n" />
+			<ThresholdFilter level="WARN" onMatch="ACCEPT" onMismatch="DENY" />
+		</File>
+	</appenders>
+	<loggers>
+		<root level="ALL">
+			<appender-ref ref="MyConsole" />
+			<appender-ref ref="MyFile" />
+		</root>
+	</loggers>
+</configuration>

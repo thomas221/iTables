@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+	<tlib-version>2.1</tlib-version>
+	<short-name>CustomJSPTags</short-name>
+	<uri>http://itables.ibyte.be/CustomJSPTags</uri>
+	<function>
+		<name>actionToString</name>
+		<function-class>util.CustomJSPTags</function-class>
+		<function-signature>Java.lang.String actionToString(boolean)</function-signature>
+	</function>
+	<function>
+		<name>actionToCssTrClass</name>
+		<function-class>util.CustomJSPTags</function-class>
+		<function-signature>Java.lang.String actionToCssTrClass(boolean)</function-signature>
+	</function>
+	<function>
+		<name>actionToCssLabelClass</name>
+		<function-class>util.CustomJSPTags</function-class>
+		<function-signature>Java.lang.String actionToCssLabelClass(boolean)</function-signature>
+	</function>
+	<function>
+		<name>getCssClassPanelConflictingCorrelationGroup</name>
+		<function-class>util.CustomJSPTags</function-class>
+		<function-signature>Java.lang.String getCssClassPanelConflictingCorrelationGroup(boolean,boolean)</function-signature>
+	</function>	
+	<function>
+		<name>getVersionLayoutFiles</name>
+		<function-class>util.CustomJSPTags</function-class>
+		<function-signature>java.lang.String getVersionLayoutFiles()</function-signature>
+	</function>
+	<function>
+		<name>isBeta</name>
+		<function-class>util.CustomJSPTags</function-class>
+		<function-signature>boolean isBeta()</function-signature>
+	</function>
+	<function>
+		<name>isDebug</name>
+		<function-class>util.CustomJSPTags</function-class>
+		<function-signature>boolean isDebug()</function-signature>
+	</function>
+</taglib>

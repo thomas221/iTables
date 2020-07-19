@@ -1,0 +1,105 @@
+# iptables configuratie gegenereerd met iTables.
+# iTables is een webapplicatie ontwikkeld door Thomas Van Poucke, Joel Craenhals en Ron Melger voor de bachelorproef aan de Open Universiteit Nederland.
+# Gegenereerd om 13:37:15 op 28/12/2013
+
+# Tabel filter
+*filter
+:INPUT ACCEPT
+
+:FORWARD ACCEPT
+# Regel 1
+-A FORWARD -s 10.1.2.0/24 -d 172.32.1.0/24 -p udp --dport 53 -j DROP
+# Regel 2
+-A FORWARD -s 10.1.0.0/16 -d 172.32.1.0/24 -p udp --dport 53 -j DROP
+# Regel 3
+-A FORWARD -s 10.1.0.0/16 -d 192.168.0.0/16 -p tcp --dport 25 -j ACCEPT
+# Regel 4
+-A FORWARD -s 10.1.1.0/24 -d 192.168.1.0/24 -p tcp --dport 25 -j DROP
+# Regel 5
+-A FORWARD -s 10.1.1.0/24 -j ACCEPT
+# Regel 6
+-A FORWARD -s 20.1.2.0/24 -d 172.32.1.0/24 -p udp --dport 53 -j DROP
+# Regel 7
+-A FORWARD -s 20.1.0.0/16 -d 172.32.1.0/24 -p udp --dport 53 -j DROP
+# Regel 8
+-A FORWARD -s 20.1.0.0/16 -d 192.168.0.0/16 -p tcp --dport 25 -j ACCEPT
+# Regel 9
+-A FORWARD -s 20.1.1.0/24 -d 192.168.1.0/24 -p tcp --dport 25 -j DROP
+# Regel 10
+-A FORWARD -s 20.1.1.0/24 -j ACCEPT
+# Regel 11
+-A FORWARD -s 30.1.2.0/24 -d 172.32.1.0/24 -p udp --dport 53 -j DROP
+# Regel 12
+-A FORWARD -s 30.1.0.0/16 -d 172.32.1.0/24 -p udp --dport 53 -j DROP
+# Regel 13
+-A FORWARD -s 30.1.0.0/16 -d 192.168.0.0/16 -p tcp --dport 25 -j ACCEPT
+# Regel 14
+-A FORWARD -s 30.1.1.0/24 -d 192.168.1.0/24 -p tcp --dport 25 -j DROP
+# Regel 15
+-A FORWARD -s 30.1.1.0/24 -j ACCEPT
+# Regel 16
+-A FORWARD -s 40.1.2.0/24 -d 172.32.1.0/24 -p udp --dport 53 -j DROP
+# Regel 17
+-A FORWARD -s 40.1.0.0/16 -d 172.32.1.0/24 -p udp --dport 53 -j DROP
+# Regel 18
+-A FORWARD -s 40.1.0.0/16 -d 192.168.0.0/16 -p tcp --dport 25 -j ACCEPT
+# Regel 19
+-A FORWARD -s 40.1.1.0/24 -d 192.168.1.0/24 -p tcp --dport 25 -j DROP
+# Regel 20
+-A FORWARD -s 40.1.1.0/24 -j ACCEPT
+# Regel 21
+-A FORWARD -s 50.1.2.0/24 -d 172.32.1.0/24 -p udp --dport 53 -j DROP
+# Regel 22
+-A FORWARD -s 50.1.0.0/16 -d 172.32.1.0/24 -p udp --dport 53 -j DROP
+# Regel 23
+-A FORWARD -s 50.1.0.0/16 -d 192.168.0.0/16 -p tcp --dport 25 -j ACCEPT
+# Regel 24
+-A FORWARD -s 50.1.1.0/24 -d 192.168.1.0/24 -p tcp --dport 25 -j DROP
+# Regel 25
+-A FORWARD -s 50.1.1.0/24 -j ACCEPT
+# Regel 26
+-A FORWARD -s 10.1.1.0/24 -d 220.210.10.8/32 -p tcp --dport 5:8 -j ACCEPT
+# Regel 27
+-A FORWARD -s 20.1.1.0/24 -d 220.210.10.8/32 -p tcp --dport 5:8 -j ACCEPT
+# Regel 28
+-A FORWARD -s 30.1.1.0/24 -d 220.210.10.8/32 -p tcp --dport 5:8 -j ACCEPT
+# Regel 29
+-A FORWARD -s 40.1.1.0/24 -d 220.210.10.8/32 -p tcp --dport 5:8 -j ACCEPT
+# Regel 30
+-A FORWARD -s 50.1.1.0/24 -d 220.210.10.8/32 -p tcp --dport 5:8 -j ACCEPT
+# Regel 31
+-A FORWARD -s 10.1.1.0/24 -d 172.32.1.9/32 -p tcp --dport 5:9 -j ACCEPT
+# Regel 32
+-A FORWARD -s 20.1.1.0/24 -d 172.32.1.8/32 -p tcp --dport 5:9 -j ACCEPT
+# Regel 33
+-A FORWARD -s 30.1.1.0/24 -d 172.32.1.8/32 -p tcp --dport 5:9 -j ACCEPT
+# Regel 34
+-A FORWARD -s 40.1.1.0/24 -d 172.32.1.8/32 -p tcp --dport 5:9 -j ACCEPT
+# Regel 35
+-A FORWARD -s 50.1.1.0/24 -d 172.32.1.8/32 -p tcp --dport 5:9 -j ACCEPT
+# Regel 36
+-A FORWARD -s 10.1.1.0/0 -j ACCEPT
+
+:OUTPUT ACCEPT
+
+COMMIT
+# Tabel mangle
+*mangle
+:INPUT ACCEPT
+
+:PREROUTING ACCEPT
+
+:POSTROUTING ACCEPT
+
+:FORWARD ACCEPT
+
+:OUTPUT ACCEPT
+
+COMMIT
+# Tabel raw
+*raw
+:PREROUTING ACCEPT
+
+:OUTPUT ACCEPT
+
+COMMIT
